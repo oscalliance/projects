@@ -113,7 +113,6 @@ p {
     left: 0;
     width: 100%;
     opacity: 0;
-    transition: opacity 0.2s ease;
     pointer-events: none;
 }
 
@@ -123,9 +122,6 @@ p {
     position: relative; 
 }
 
-.slide:not(.active) {
-    transition: opacity 0.2s ease 0.1s;
-}
 
 .slider img {
     width: 100%;
@@ -169,7 +165,7 @@ p {
 
 
 
-.slider-controls {
+.slider-controls-bottom {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -219,6 +215,73 @@ p {
 
 .dot.active { background: var(--accent); }
 .dot:hover { filter: brightness(120%); transform: scale(1.2);}
+
+
+
+
+.slider-controls-top {
+    margin: 0 auto 1rem auto;
+    height: 30px;
+    width: min(600px, 90%);
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.autoscroll-controls {
+    height: 100%;
+    display: flex;
+    border: 1px solid var(--bg-tertiary);
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.autoscroll-controls button {
+    border: none;
+    border-right: 1px solid var(--bg-tertiary);
+    height: 100%;
+    width: 100%;
+    min-width: 40px;
+    background: var(--bg-secondary);
+    color: var(--text-white);
+    transition: all 0.2s ease;
+}
+
+.autoscroll-controls button:last-child {
+  border-right: none;
+}
+
+.autoscroll-controls button:hover {
+    background: var(--bg-tertiary);
+    cursor: pointer;
+}
+
+.autoscroll-controls button.active {
+    background: var(--bg-primary);
+}
+
+.direction-control {
+    height: 100%;
+}
+
+
+.direction-toggle {
+    background: var(--bg-secondary);
+    border: 1px solid var(--bg-tertiary);
+    border-radius: 15px;
+    height: 100%;
+    min-width: 40px;
+    color: var(--text-white);
+    transition: all 0.2s ease;
+}
+
+.direction-toggle:hover {
+    background: var(--bg-tertiary);
+    cursor: pointer;
+}
+
 
 /* description */
 
@@ -495,7 +558,7 @@ p {
         width: 95%;
     }
     
-    .slider-controls {
+    .slider-controls-bottom {
         gap: 0.75rem;
     }
     
@@ -510,7 +573,7 @@ p {
         margin: 0.5rem auto;
     }
     
-    .slider-controls {
+    .slider-controls-bottom {
         flex-direction: column;
         gap: 0.5rem;
     }
