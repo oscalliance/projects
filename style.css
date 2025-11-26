@@ -200,8 +200,14 @@ p {
 }
 
 .dots {
+    margin: auto;
     display: flex;
-    gap: 0.5rem;
+    column-gap: 0.5rem;
+    row-gap: 1rem;
+    flex-wrap: wrap;
+    width: min(600px, 90%);
+    align-items: center;
+    justify-content: center;
 }
 
 .dot {
@@ -302,7 +308,9 @@ p {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    width: 100%; height: 100%;
+    height: 100%;
+    white-space: nowrap;
+    overflow: hidden;
 }
 
 .description-box p {
