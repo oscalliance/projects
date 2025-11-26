@@ -211,7 +211,7 @@ class ContributorManager {
                 "Legitbeatle",
                 "995qa",
                 "Amireal71",
-                "One",
+                "One (InvisibleThe2nd)",
                 "soapdoggie",
                 "parfaitheart",
                 "SonicFan510",
@@ -234,8 +234,32 @@ class ContributorManager {
                 "Ender",
                 "zushyart"
             ],
+            'tpot-banner': [
+                "Reviksedy",
+                "AnalyticalTomato",
+                "One (InvisibleThe2nd)",
+                "EpicDemo",
+                "L0v33rx",
+                "BlueStevie64",
+                "AnthonyDaBest",
+                "MagikalTwinkle",
+                "Frenkizaba1",
+                "APersonThatIsMe",
+                "PrimeNavigator",
+                "zushyart",
+                "akaSandwich",
+                "Real Pillow BFDI",
+                "Papery_",
+                "FurryCatto",
+                "PizzaGuy25_a",
+                "-Tsunami-",
+                "SeQuaLL",
+                "cometztarz",
+                "slimeman",
+                "b100rulez",
+                "Fifi"
+            ],
             'default': [
-                ""
             ]
         };
         
@@ -255,7 +279,6 @@ class ContributorManager {
                 "AnalyticalTomato"
             ],
             'default': [
-                ""
             ]
         };
 

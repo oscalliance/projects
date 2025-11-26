@@ -179,6 +179,7 @@ p {
     background: var(--bg-secondary);
     border: 1px solid var(--bg-tertiary);
     color: var(--text-white);
+    font-size: 1rem;
     padding: 0.5rem 1rem;
     border-radius: 15px;
     cursor: pointer;
@@ -186,6 +187,7 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 150px;
 }
 
 .prev-button:hover, .next-button:hover {
