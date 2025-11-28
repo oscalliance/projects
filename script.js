@@ -257,7 +257,8 @@ class ContributorManager {
                 "cometztarz",
                 "slimeman",
                 "b100rulez",
-                "Fifi"
+                "Fifi",
+                "BookFan510"
             ],
             'default': [
             ]
