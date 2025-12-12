@@ -261,7 +261,8 @@ class ContributorManager {
                 "BookFan510",
                 "Happyguy",
                 "polinaa_malin",
-                "Charkis"
+                "Charkis",
+                "marker the red"
             ],
             'default': [
             ]
